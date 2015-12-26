@@ -369,7 +369,7 @@
 
 
 @media screen and (min-width: 961px){
-    .app-box{
+    .app-box,.appbox{
         display: none;
     }
     .nav,.pc-con,.banner{
