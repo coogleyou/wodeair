@@ -375,4 +375,7 @@
     .nav,.pc-con,.banner{
         display: block;
     }
+    .contxt{
+        margin-top: 195px;
+    }
 }
