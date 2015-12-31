@@ -41,6 +41,12 @@ p{
 .tl{
     text-align: left;
 }
+.dp-b{
+    display: block;
+}
+.cl-r{
+    clear: right;
+}
 /*
 字体样式
 */
@@ -57,17 +63,19 @@ p{
     font-size: 30px;
     color: #fe8324;
 }
-
-
-
-
-
-
-
-
-.mtb50{
-    margin-top: 50px;
-    margin-bottom: 50px;
+/*
+margin
+*/
+.ml10{
+    margin-left: 10px;
 }
-
+.ml183{
+    margin-left: 107px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.mb5{
+    margin-bottom: 7px;
+}
 

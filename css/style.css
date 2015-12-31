@@ -282,7 +282,7 @@
 
 
 
-@media screen and (min-width: 320px),screen and (max-width: 960px){
+@media screen and (min-width: 320px) and (max-width: 960px){
     body{
         background: #FFFFFF;
     }
@@ -292,17 +292,11 @@
     .appbox{
         width: 80%;
         max-width: 750px;
-        min-height: 320px;
+        min-width: 320px;
         margin: 0 auto;
         padding: 0px 10%;
         display: block;
     }
-
-
-
-
-
-
     .app-box{
         border-bottom: 1px solid #ece8e8;
         margin: 0 auto;
@@ -312,53 +306,67 @@
         margin-top: 0px;
     }
     .contxt h1{
-        font-size: 44px;
+        font-size: 22px;
         color: #fe8324;
         font-weight: normal;
         margin-bottom: 15px;
         text-align: center;
     }
     .contxt .tit-red{
-        font-size: 60px;
+        font-size: 30px;
         color:#ef3044;
         font-weight: normal;
     }
     .contxt p{
         max-width: 345px;
         text-align: center;
-        font-size:30px;
+        font-size: 15px;
         color: #595757;
         margin: 0 auto;
     }
-    .app-box img{
-        width: 100%;
-        height: 100%;
-        max-width: 420px;
-        max-height: 389px;
-    }
-
-
     .appbtn{
         width: 100%;
-        height: 80px;
+        height: 40px;
         background: #f02f44;
         border-radius: 7px;
-        line-height: 80px;
+        line-height: 40px;
         text-align: center;
-        font-size: 36px;
+        font-size: 18px;
         font-weight: normal;
         color: #fff;
         display: inline-block;
     }
+    .app-img1{
+        width: 69px;
+        height: 89px;
+    }
+    .app-img1{
+        width: 69px;
+        height: 89px;
+    }
+    .app-img2{
+        width: 135px;
+        height: 269px;
+    }
+    .app-img3{
+        width: 210px;
+        height: 194px;
+    }
 
 
 
 
 
 
-
-
-
+   /* body{
+        background: blue;
+    }
+    div{
+        width: 800px;
+        height: 800px;
+        margin: 0 auto;
+        background: blue;
+    }*/
 
 
 }
@@ -368,7 +376,20 @@
 
 
 
-@media screen and (min-width: 961px){
+@media screen and (min-width: 960px){
+    /*body{
+        background: red;
+    }
+    div{
+        width: 800px;
+        height: 800px;
+        margin: 0 auto;
+        background: red;
+    }*/
+
+
+
+
     .app-box,.appbox{
         display: none;
     }
